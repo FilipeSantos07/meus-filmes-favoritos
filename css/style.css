@@ -112,9 +112,6 @@ main section p {
     font-size: 16px;
     line-height: 160%;
 }
-main section ul {
-    margin-top: 24px;
-}
 main ul li {
     transition: all .3s;
 }
@@ -129,7 +126,10 @@ main section img {
 section ul {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 16px;
+    margin-top: 24px;
+    
 }
 .div-button {
     text-align: center;
@@ -143,6 +143,12 @@ section ul {
     border: none;
     padding: 10px;
     cursor: pointer;
+}
+#linkedin-icon {
+    border: 3px solid #ece9e9;
+    border-radius: 8px;
+    width: 35px;
+    height: 35px;
 }
 @keyframes fromLeft {
     from {
