@@ -131,8 +131,18 @@ section ul {
     flex-wrap: wrap;
     gap: 16px;
 }
-p {
+.div-button {
+    text-align: center;
+    margin-bottom: 80px ;
+}
+.div-button a {
     color: #FFFFFF;
+    background: #8818c9;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
 }
 @keyframes fromLeft {
     from {
