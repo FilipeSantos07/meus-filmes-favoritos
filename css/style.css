@@ -47,9 +47,10 @@ nav li a {
     font-weight: 900;
     font-size: 1.1rem;  
     border-radius: 8px;
-    padding: 7px 8px;
     color: #8818c9;
     text-shadow: 1px 2px #afe25c;
+    display: block;
+    padding: 10px;
 }
 header {
     padding-top: 32px;
@@ -151,11 +152,14 @@ section ul {
         transform: translateX(0);
     }
 }
-@media only screen and (max-width:569px) {
+@media only screen and (max-width:650px) {
     section ul {
         justify-content: center;
     }
     nav ul {
         justify-content: center;
+    }
+    nav li a {
+        font-size: 1.3rem;
     }
 }
