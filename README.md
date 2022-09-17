@@ -12,6 +12,7 @@ Criei essa página web pra colocar os filmes e séries que eu mais curto, com um
 
 - HTML
 - CSS
+- JavaScript
 
 ## 💛 Contato
 

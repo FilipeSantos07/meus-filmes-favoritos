@@ -131,7 +131,9 @@ section ul {
     flex-wrap: wrap;
     gap: 16px;
 }
-
+p {
+    color: #FFFFFF;
+}
 @keyframes fromLeft {
     from {
         opacity: 0;
