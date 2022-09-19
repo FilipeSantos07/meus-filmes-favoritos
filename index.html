@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/film.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    
     <title>My movies</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <nav id="nav">
@@ -36,48 +42,50 @@
             <div>
                 <h2>Terror</h2>
                 <p>Os filmes de terror são os melhores!</p>
-                <ul>
-                    <li>
-                        <a href="https://www.themoviedb.org/movie/4232" target="_blank">
-                            <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/cJj2gYzkPFSqYGGOhfLgeANlXkB.jpg" alt="Pânico">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.themoviedb.org/movie/9902" target="_blank">
-                            <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/12YCnydCQxjbNTDPHkNIqUpjHMD.jpg" alt="Pânico na floresta">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.themoviedb.org/movie/588" target="_blank">
-                            <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/pg39SwqpfSXiC6dVl6leFpFmJML.jpg" alt="Terror em silent hill">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.themoviedb.org/movie/410537" target="_blank">
-                            <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/xJCkU5RnX28I2h1em2HVdfp406v.jpg" alt="Amityville, o terror">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.themoviedb.org/movie/316727" target="_blank">
-                            <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/41NT5TCXWnlg2vxtVZz8uFlhHca.jpg" alt="12 horas para sobreviver: O ano de eleição">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.themoviedb.org/movie/1690" target="_blank">
-                            <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/dOpGaWfM9k46fzG3B5PfgSun5Om.jpg" alt="O albergue">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.themoviedb.org/movie/10781" target="_blank">
-                            <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/a6oqQberLAI2KWkYEz6c4gP2nIk.jpg" alt="O massacre da serra elétrica">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.themoviedb.org/movie/8922" target="_blank">
-                            <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/4deKiUXWqyATIEKCBSjRxCOLvu0.jpg" alt="Olhos famintos">
-                        </a>
-                    </li>
-                </ul>
+                <div class="swiper mySwiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="https://www.themoviedb.org/movie/4232" target="_blank">
+                                <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/cJj2gYzkPFSqYGGOhfLgeANlXkB.jpg" alt="Pânico">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.themoviedb.org/movie/9902" target="_blank">
+                                <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/12YCnydCQxjbNTDPHkNIqUpjHMD.jpg" alt="Pânico na floresta">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.themoviedb.org/movie/588" target="_blank">
+                                <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/pg39SwqpfSXiC6dVl6leFpFmJML.jpg" alt="Terror em silent hill">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.themoviedb.org/movie/410537" target="_blank">
+                                <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/xJCkU5RnX28I2h1em2HVdfp406v.jpg" alt="Amityville, o terror">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.themoviedb.org/movie/316727" target="_blank">
+                                <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/41NT5TCXWnlg2vxtVZz8uFlhHca.jpg" alt="12 horas para sobreviver: O ano de eleição">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.themoviedb.org/movie/1690" target="_blank">
+                                <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/dOpGaWfM9k46fzG3B5PfgSun5Om.jpg" alt="O albergue">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.themoviedb.org/movie/10781" target="_blank">
+                                <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/a6oqQberLAI2KWkYEz6c4gP2nIk.jpg" alt="O massacre da serra elétrica">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.themoviedb.org/movie/8922" target="_blank">
+                                <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/4deKiUXWqyATIEKCBSjRxCOLvu0.jpg" alt="Olhos famintos">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
 
@@ -85,23 +93,25 @@
             <div>
                 <h2>Aventura</h2>
                 <p>Pra recordar :)</p>
-                <ul>
-                    <li>
-                        <a href="https://www.themoviedb.org/movie/10439" target="_blank">
-                            <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/kIzKIA43hE26HRV77RTYtZwjOSM.jpg" alt="Abracadabra">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.themoviedb.org/movie/10166" target="_blank">
-                            <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/tqOZFKgFtTMhm61skWYGLeMYFfp.jpg" alt="Convenção das bruxas">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.themoviedb.org/movie/8871" target="_blank">
-                            <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/vDtJA6DdwLpwoV60rKLWOCt63gK.jpg" alt="O grinch">
-                        </a>
-                    </li>
-                </ul>
+                <div class="swiper mySwiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="https://www.themoviedb.org/movie/10439" target="_blank">
+                                <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/kIzKIA43hE26HRV77RTYtZwjOSM.jpg" alt="Abracadabra">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.themoviedb.org/movie/10166" target="_blank">
+                                <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/tqOZFKgFtTMhm61skWYGLeMYFfp.jpg" alt="Convenção das bruxas">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="https://www.themoviedb.org/movie/8871" target="_blank">
+                                <img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/vDtJA6DdwLpwoV60rKLWOCt63gK.jpg" alt="O grinch">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
 
@@ -146,6 +156,7 @@
         <a onclick="toTop()">Voltar</a>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
