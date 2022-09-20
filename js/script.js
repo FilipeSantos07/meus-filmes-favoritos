@@ -1,8 +1,4 @@
 var topo = document.body
-var swiper = new Swiper(".mySwiper", {
-   slidesPerView: 3,
-   loop:true
-});
 
 function toTop() {
     topo.scrollIntoView({behavior:"smooth"})

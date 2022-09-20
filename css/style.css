@@ -74,7 +74,7 @@ header img {
     border-radius: 50%;
 }
 main {
-    max-width: 360px;
+    max-width: 1040px;
     margin: 32px auto;
     width: 90%;
     display: grid;
@@ -180,11 +180,4 @@ section ul {
     nav li a {
         font-size: 1.3rem;
     }
-}
-/*swipper*/
-section {
-    overflow: hidden;
-}
-section ul {
-    flex-wrap: nowrap;
 }
