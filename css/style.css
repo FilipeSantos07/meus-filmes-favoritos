@@ -21,7 +21,6 @@ body {
     justify-content: space-between;
     width: 90%;
     flex-wrap: wrap;
-    position: fixed;
     background: #121214;
     padding: 0 10%;
 }
@@ -31,7 +30,6 @@ nav div {
 nav ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
 }
 nav img {
     width: 50px;
@@ -39,6 +37,7 @@ nav img {
 nav li {
     animation: fromLeft 1.2s;
     transition: all .1s;
+    margin-left: 50px;
 }
 nav li:hover {
     transform: scale(1.1);
@@ -193,5 +192,10 @@ section ul {
     }
     nav li a {
         font-size: 1.3rem;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    nav {
+        position: fixed;
     }
 }
