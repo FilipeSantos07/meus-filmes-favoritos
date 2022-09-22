@@ -96,6 +96,12 @@ main section:nth-child(2) {
 main section:nth-child(3) {
     animation: fromLeft 1.2s .8s backwards;
 }
+main section:nth-child(4) {
+    animation: fromRight 1.2s .9.9s backwards;
+}
+main section:nth-child(5) {
+    animation: fromLeft 1.2s .9.9s backwards;
+}
 main section div {
     background: #262629;
     padding: 24px 32px 32px 32px;
