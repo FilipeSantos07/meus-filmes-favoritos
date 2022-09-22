@@ -15,14 +15,15 @@ body {
     background-repeat: no-repeat;
     background-color: #121214;
 }
-nav {
+#nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1040px;
-    margin: auto;
     width: 90%;
     flex-wrap: wrap;
+    position: fixed;
+    background: #121214;
+    padding: 0 10%;
 }
 nav div {
     margin-top: 15px;
@@ -33,7 +34,7 @@ nav ul {
     gap: 50px;
 }
 nav img {
-    width: 100px;
+    width: 50px;
 }
 nav li {
     animation: fromLeft 1.2s;
@@ -45,7 +46,7 @@ nav li:hover {
 nav li a {
     color: #FFFFFF;
     font-weight: 900;
-    font-size: 1.1rem;  
+    font-size: 1rem;  
     border-radius: 8px;
     color: #8818c9;
     text-shadow: 1px 2px #afe25c;
@@ -53,8 +54,9 @@ nav li a {
     padding: 10px;
 }
 header {
-    padding-top: 32px;
+    padding-top: 100px;
     height: calc(120px + 32px);
+    
 }
 header div {
     width: 120px;
@@ -74,11 +76,12 @@ header img {
     border-radius: 50%;
 }
 main {
-    max-width: 1040px;
+    max-width: 700px;
     margin: 32px auto;
     width: 90%;
     display: grid;
     gap: 24px;
+    padding-top: 100px;
 }
 main section {
     background-image: linear-gradient(90deg, #8818c9 0%,#8818c9 50%, #afe25c 55%);
@@ -131,24 +134,35 @@ section ul {
     margin-top: 24px;
     
 }
-.div-button {
-    text-align: center;
-    margin-bottom: 80px ;
-}
-.div-button a {
-    color: #FFFFFF;
-    background: #8818c9;
-    font-size: 1.2rem;
-    border-radius: 8px;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
 #github-icon {
     border: 3px solid #ece9e9;
-    border-radius: 8px;
     width: 35px;
     height: 35px;
+}
+#minhas-redes li {
+    transition: all .3s;
+}
+#minhas-redes li:hover {
+    transform: scale(1.2);
+}
+.div-button {
+    transition: all .3s;
+    max-width: 50px;
+    margin: 80px auto;
+}
+.div-button:hover {
+    transform: scale(1.1);
+}
+.div-button img {
+    width: 20px;
+}
+.div-button button {
+    color: #FFFFFF;
+    background: #8818c9;
+    border-radius: 8px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
 }
 @keyframes fromLeft {
     from {

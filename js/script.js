@@ -18,3 +18,11 @@ document.querySelector("#menuMinhasRedes").addEventListener("click" , function(e
     event.preventDefault()
     scrollTo("#minhas-redes")
 })
+document.querySelector("#desenhos").addEventListener("click" , function(event) {
+    event.preventDefault()
+    scrollTo(".desenhos")
+})
+document.querySelector("#comédia").addEventListener("click" , function(event) {
+    event.preventDefault()
+    scrollTo(".comédia")
+})
