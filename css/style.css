@@ -15,14 +15,16 @@ body {
     background-repeat: no-repeat;
     background-color: #121214;
 }
-#nav {
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
     flex-wrap: wrap;
-    background: #121214;
-    padding: 0 10%;
+    background: #161618;
+    padding: 0 15%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 nav div {
     margin-top: 15px;
@@ -189,52 +191,48 @@ section ul {
         transform: translateX(0);
     }
 }
-@media only screen and (max-width:650px) {
-    header {
-        
-        margin-top: 40px;
+@media only screen and (max-width:700px) {
+    nav {
+        height: 50px;
+        padding: 0 2%;
     }
-    .logo {
+    nav ul {
+        width: 100%;
+        justify-content: space-between;
+    }
+    nav div {
         display: none;
     }
-    #nav {
-        padding: 0;
+    nav li {
+        margin-left: 0;
     }
-    #nav ul {
+    nav li a {
+        font-size: 0.5rem;
+    }
+    main section div {
+        text-align: center;
+    }
+    main section ul {
+        display: flex;
         justify-content: center;
+    }
+}
+@media only screen and (min-width:701px) and (max-width:1165px) {
+    nav {
+        height: 50px;
+        padding: 0 10%;
+    }
+    nav ul {
+        width: 100%;
+        justify-content: space-between;
+    }
+    nav div {
+        display: none;
+    }
+    nav li {
+        margin-left: 0;
     }
     nav li a {
         font-size: 1rem;
-    }
-    header {
-        padding-top: 0;
-    }
-    main {
-        padding-top: 0;
-    }
-    main section img {
-        width: 92px;
-    }
-}
-@media only screen and (min-width:651px) {
-    #nav {
-        margin: auto;
-        padding: 0;
-    }
-    header {
-        padding: 32px 0;
-        height: 0;
-
-    }
-}
-@media only screen and (min-width: 1200px) {
-    #nav {
-        position: fixed;  
-        padding: 0 10%;  
-    }
-    header {
-        padding-top: 100px;
-        margin-bottom: 52px;
-        height:
     }
 }
