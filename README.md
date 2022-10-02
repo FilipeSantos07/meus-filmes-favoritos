@@ -16,4 +16,4 @@ Criei essa página web pra colocar os filmes e séries que eu mais curto, com um
 
 ## 💛 Contato
 
-outerspaceguy@live.co.uk
+FilipeSantosEstudos1@gmail.com
